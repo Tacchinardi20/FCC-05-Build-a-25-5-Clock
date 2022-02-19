@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700;1,900&family=Libre+Baskerville:wght@400;700&family=Oswald:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #130f40;
+    color: #ffe169;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    text-align: center;
+}
+
+button {
+    background-color: #34312d;
+    color: #00FECA;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container {
+    margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+    margin: 5px;
+}
+
+.actions-wrapper span {
+    font-size: 40px;
+    margin: 0 10px;
+    width: 50px;
+}
+
+.clock-container {
+    border: 2px solid #00a6fb;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.clock-container h1 {
+    margin: 0;
+}
+
+.clock-container span {
+    font-size: 60px;
+}
